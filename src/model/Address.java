@@ -4,8 +4,8 @@ public class Address {
 
     private int id;
     private int customerId;
-    private String Line1;
-    private String Line2;
+    private String line1;
+    private String line2;
     private String city;
     private String stateProvince;
     private String Country;
@@ -27,19 +27,19 @@ public class Address {
     }
 
     public String getLine1() {
-        return Line1;
+        return line1;
     }
 
     public void setLine1(String line1) {
-        Line1 = line1;
+        line1 = line1;
     }
 
     public String getLine2() {
-        return Line2;
+        return line2;
     }
 
     public void setLine2(String line2) {
-        Line2 = line2;
+        this.line2 = line2;
     }
 
     public String getCity() {

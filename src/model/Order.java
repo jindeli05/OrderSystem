@@ -8,7 +8,7 @@ import java.util.List;
 public class Order implements IorderCalculation {
 
     private int orderId;
-    private String  OrderNumber;
+    private String  orderNumber;
     private int  customerId;
     private Date orderCreatedDate;
     private Date orderFulfilledDate;
@@ -21,16 +21,16 @@ public class Order implements IorderCalculation {
         return orderId;
     }
 
-    public void setOrderID(int orderId) {
-        orderId = orderId;
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
     }
 
     public String getOrderNumber() {
-        return OrderNumber;
+        return orderNumber;
     }
 
     public void setOrderNumber(String orderNumber) {
-        OrderNumber = orderNumber;
+        orderNumber = orderNumber;
     }
 
     public int getCustomerId() {
@@ -38,7 +38,7 @@ public class Order implements IorderCalculation {
     }
 
     public void setCustomerID(int customerId) {
-        customerId = customerId;
+        this.customerId = customerId;
     }
 
     public Date getOrderCreatedDate() {
