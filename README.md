@@ -1,6 +1,6 @@
 # Order Management System Overview
  
-This project seeks to develop a real world order management system that will enable customers to track, manage and make payment with regards to theirs orders.
+This project seeks to develop a real world order management system that will enable customers to track, manage and make payment with regards to their orders.
 
 Order Management System:
 
