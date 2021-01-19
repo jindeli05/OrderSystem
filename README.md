@@ -16,6 +16,15 @@ ReturnedItme
 
 customer
 - make an order
+     - A list of product items with their price and quantity is diplayed 
+     - The custimer is allowed to select and add to the order
+     - Once done, customer sees the total price which will include tax and discount
+     
+     Business rules : 
+     - If the customer does not have sufficient funds prompt the customer
+     - A customer should be allowed to remove a particular item if it was mistakenly selected
+
+
 - pay for the order
 - track the order
 - view items 
