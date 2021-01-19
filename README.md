@@ -17,8 +17,10 @@ ReturnedItme
 customer
 - make an order
      - A list of product items with their price and quantity is diplayed 
-     - The custimer is allowed to select and add to the order
+     - The customer is allowed to select and add an item to the order
+     - The order is process accordingly
      - Once done, customer sees the total price which will include tax and discount
+     - A notification is sent to the customer notififying him/her about his/her order whiles thanking him/her. 
      
      Business rules : 
      - If the customer does not have sufficient funds prompt the customer
@@ -40,6 +42,7 @@ Order
 - show price 
 
 Address
+- Allow addition of address 
 
 
 LineItem
