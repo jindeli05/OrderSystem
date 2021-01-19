@@ -18,7 +18,7 @@ customer
 - make an order
      - A list of product items with their price and quantity is diplayed 
      - The customer is allowed to select and add an item to the order
-     - The order is process accordingly
+     - The order is processed accordingly
      - Once done, customer sees the total price which will include tax and discount
      - A notification is sent to the customer notififying him/her about his/her order whiles thanking him/her. 
      
