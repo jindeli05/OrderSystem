@@ -1,6 +1,6 @@
-package model;
+package com.gindeli.ordersystem.model;
 
-import dao.IorderCalculation;
+import com.gindeli.ordersystem.dao.IorderCalculation;
 
 import java.util.Date;
 import java.util.List;

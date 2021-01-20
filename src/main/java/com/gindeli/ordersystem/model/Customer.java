@@ -1,7 +1,6 @@
-package model;
+package com.gindeli.ordersystem.model;
 
-import com.sun.prism.shader.DrawCircle_RadialGradient_REFLECT_AlphaTest_Loader;
-import dao.IorderCalculation;
+import com.gindeli.ordersystem.dao.IorderCalculation;
 
 import java.util.Date;
 import java.util.List;
@@ -51,7 +50,7 @@ public class Customer implements IorderCalculation {
 
 
     public List<Address> getAddresses() {
-        return address;
+        return addresses;
     }
 
     public void setAddresses(List<Address> addresses ) {
