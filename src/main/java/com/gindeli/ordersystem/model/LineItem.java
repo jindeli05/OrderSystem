@@ -1,4 +1,4 @@
-package model;
+package com.gindeli.ordersystem.model;
 
 public class LineItem {
     private int lineItemID;

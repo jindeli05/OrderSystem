@@ -1,4 +1,4 @@
-package dao;
+package com.gindeli.ordersystem.dao;
 
 public interface IorderCalculation {
 
