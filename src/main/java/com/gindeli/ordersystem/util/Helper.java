@@ -3,8 +3,9 @@ package com.gindeli.ordersystem.util;
 import java.util.Scanner;
 
 public class Helper {
-    final double BURGUR = 5.00;
-    final double FRIES = 3.00;
+    final static double BURGUR = 5.00;
+    final static double FRIES = 3.00;
+    final static double CHIECKEN_WRAP = 7.00;;
 
     public static void displayOrders() {
         Scanner scanner = new Scanner(System.in);
@@ -42,13 +43,13 @@ public class Helper {
 
     private static double calcualteOrders(int orderItem, int quantity, double sum) {
         if (orderItem == 1) {
-            sum = sum + quantity * 5.00;
+            sum = sum + quantity * BURGUR;
         }
         if (orderItem == 2) {
-            sum = sum + quantity * 3.00;
+            sum = sum + quantity * FRIES;
         }
         if (orderItem == 3) {
-            sum = sum + quantity * 7.00;
+            sum = sum + quantity * CHIECKEN_WRAP;
         } else {
             sum = 0;
         }
